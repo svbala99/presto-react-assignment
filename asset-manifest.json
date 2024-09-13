@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.09b8d9d5.css",
-    "main.js": "/my-app/static/js/main.d18a4463.js",
-    "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/my-app/index.html",
-    "main.09b8d9d5.css.map": "/my-app/static/css/main.09b8d9d5.css.map",
-    "main.d18a4463.js.map": "/my-app/static/js/main.d18a4463.js.map",
-    "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/presto-react-assignment/static/css/main.09b8d9d5.css",
+    "main.js": "/presto-react-assignment/static/js/main.44af7ad2.js",
+    "static/js/453.318eabdc.chunk.js": "/presto-react-assignment/static/js/453.318eabdc.chunk.js",
+    "index.html": "/presto-react-assignment/index.html",
+    "main.09b8d9d5.css.map": "/presto-react-assignment/static/css/main.09b8d9d5.css.map",
+    "main.44af7ad2.js.map": "/presto-react-assignment/static/js/main.44af7ad2.js.map",
+    "453.318eabdc.chunk.js.map": "/presto-react-assignment/static/js/453.318eabdc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09b8d9d5.css",
-    "static/js/main.d18a4463.js"
+    "static/js/main.44af7ad2.js"
   ]
 }
