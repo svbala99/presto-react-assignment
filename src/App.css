@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex: 1;
 }
 
 .App-logo {
@@ -35,4 +37,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.one {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #61dafb;
+}
+
+.two {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+}
+
+.three {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+
+.btn {
+  width: 96px;
+  height: 32px;
 }
