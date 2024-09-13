@@ -1,5 +1,14 @@
 # Presto - Tech Round - II - Assignment
 
+## Live link: https://svbala99.github.io/presto-react-assignment
+
+- Hosted for free in Guthub actions
+
+### Missed out functionalities (Future improvements)
+
+- Timer for each question with elapse functionality
+- Take me to Question - functionality on Summary page
+
 ### Build a quiz app.
 
 ###### We want you to build a quiz app with multiple choice questions. Choose any number of questions. The quiz app should display one question a time to the user. There should be a next button and a previous button. Users can go to the next question using the next button and previous button using the previous button. If there are no previous questions, the previous button should be disabled. Once he submitted the answer to the last question, on pressing next, the user should be taken to a summary page, where each question and the answer chosen by the user are shown. Next to each question, there should be a "take me to question" button. On pressing that button, the user should be taken to that question, so that user can modify it if he wants to.Also there should be a submit button in the summary page. And on submit in the summary page, the user should be shown a score page. The page structure of the app is as follows
