@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/presto-react-assignment/static/css/main.09b8d9d5.css",
+    "main.js": "/presto-react-assignment/static/js/main.523312a2.js",
+    "static/js/453.ed3810f9.chunk.js": "/presto-react-assignment/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/presto-react-assignment/index.html",
+    "main.09b8d9d5.css.map": "/presto-react-assignment/static/css/main.09b8d9d5.css.map",
+    "main.523312a2.js.map": "/presto-react-assignment/static/js/main.523312a2.js.map",
+    "453.ed3810f9.chunk.js.map": "/presto-react-assignment/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09b8d9d5.css",
+    "static/js/main.523312a2.js"
+  ]
+}
