@@ -38,6 +38,7 @@ const App = () => {
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const [submitted, setSubmitted] = React.useState(false);
   const [showSummary, setShowSummary] = React.useState(false);
+  const [showScore, setShowScore] = React.useState(false);
 
   const handleNavigation = (number = "") => {
     if (number === -1) {
@@ -51,23 +52,31 @@ const App = () => {
     let updatedQuestions = [...questions];
     updatedQuestions[questionNumber].chosen = optionIdChosen;
     setQuestions([...updatedQuestions]);
-    if (questionNumber < questions.length - 1) {
-      setCurrentQuestion(questionNumber + 1);
-    }
   };
 
   if (submitted) {
     return <Score data={questions} />;
   }
   if (showSummary) {
-    return <Summary handleNavigation={handleNavigation} data={questions} />;
+    return (
+      <Summary
+        showScore={() => {
+          setShowSummary(false);
+          setShowScore(true);
+        }}
+        data={questions}
+      />
+    );
+  }
+  if (showScore) {
+    return <Score data={questions} />;
   }
   return (
     <Question
-      key={currentQuestion}
       number={currentQuestion}
       question={questions[currentQuestion].question}
       options={questions[currentQuestion].options}
+      chosen={questions[currentQuestion].chosen}
       prev={currentQuestion === 0 ? null : currentQuestion - 1}
       next={currentQuestion === questions.length - 1 ? -1 : currentQuestion + 1}
       handleNavigation={handleNavigation}

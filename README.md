@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Presto - Tech Round - II - Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Build a quiz app.
 
-## Available Scripts
+###### We want you to build a quiz app with multiple choice questions. Choose any number of questions. The quiz app should display one question a time to the user. There should be a next button and a previous button. Users can go to the next question using the next button and previous button using the previous button. If there are no previous questions, the previous button should be disabled. Once he submitted the answer to the last question, on pressing next, the user should be taken to a summary page, where each question and the answer chosen by the user are shown. Next to each question, there should be a "take me to question" button. On pressing that button, the user should be taken to that question, so that user can modify it if he wants to.Also there should be a submit button in the summary page. And on submit in the summary page, the user should be shown a score page. The page structure of the app is as follows
 
-In the project directory, you can run:
+- Q1 page
+- Q2 page
+- Q3 page
+  .
+  .
+  .
+- Qn page
+- Summary page
+- Score page
 
-### `npm start`
+If time permits, I want a time remaining on each page. Not worried so much about the UI. Most interested in how you are dividing the pages into components and such. Try to think that this app could be expanded to support more features in future.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Quiz App
 
-### `npm test`
+## Technology
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React - Web app development
+- Node JS: For runtime environment
+- Javascript : For application development
+- VS code : Code editor IDE
+- Linting: eslint
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This App requires [Node.js](https://nodejs.org/) v10+ to run.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### Download the repo and install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+git@github.com:svbala99/presto-react-assignment.git
+cd presto-react-assignment
+npm i
+```
 
-### `npm run eject`
+##### Start the development server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Packages used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Package | Version |
+| ------- | ------- |
+| React   | 18      |
